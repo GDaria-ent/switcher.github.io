@@ -1,0 +1,42 @@
+@keyframes head{
+    from{
+        top: 20%;
+        animation-timing-function: linear;
+    }
+    to{
+        top: 0;
+    }
+}
+@keyframes eyebrow--left{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(18deg);
+    }
+}
+@keyframes eyebrow--right{
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(-18deg);
+    }
+}
+@keyframes mouth {
+    from{
+        width: 50px;
+        height: 5px;
+        border-radius: 10px;
+    }
+    to{
+        width: 40px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: red;
+        left: 37%;
+        border: 1px solid black;
+    }
+}
