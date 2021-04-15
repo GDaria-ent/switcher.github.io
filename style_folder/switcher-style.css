@@ -1,14 +1,15 @@
 .main-wrapper{
     width:100%;
     height:100%;
-    padding-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .switcher-wrapper{
     max-width: 700px;
     width: 100%;
     height: 300px;
     margin: 0 auto;
-    padding-top: 25px;
 }
 
 .switcher-outer{
@@ -21,7 +22,6 @@
     padding-top: 40px;
 }
 .switcher-inner{
-    /* border: 1px solid; */
     margin: 0 auto;
     max-width: 400px;
     width: 100%;

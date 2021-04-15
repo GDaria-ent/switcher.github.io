@@ -1,10 +1,80 @@
-@keyframes switch-on {
-    from{
-        left: 0;
-        animation-timing-function: linear;
-    }
-    to{
-        left: 230px;
-        background-color: green;
-    }
+.animation-wrapper{
+    max-width: 400px;
+    width: 100%;
+    height: 300px;
+    border: 1px solid magenta;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-right: 450px;
+}
+.animation-head{
+    max-width: 150px;
+    width: 100%;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid rgb(17, 16, 16);
+    position: relative;
+    margin-right: 10px;
+    background-color: #ddd;
+    overflow: hidden;
+}
+.ear{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(17, 16, 16);
+    transform: rotate(12deg);
+    left: 5px;
+    top: 45%;
+    position: absolute;
+    background-color:  #ddd;
+    border-radius: 15px;
+}
+.ear--right{
+    transform: rotate(78deg);
+    left: 24%;
+}
+.eyebrow{
+    width: 30px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: black;
+    position: absolute;
+    top: 20%;
+    left: 16%;
+}
+.eyebrow--right{
+    left: 63%;
+}
+
+.eye-spot{
+    width: 40px;
+    height: 30px;
+    background-color: rgb(92, 88, 88);
+    position: absolute;
+    top: 30%;
+    left: 13%;
+    transform: rotate(135deg);
+    border-radius: 30px 17px 20px 12px;
+}
+.eye-spot--right{
+    left: 60%;
+    transform: rotate(54deg);
+    border-radius: 12px 27px 20px 30px;
+}
+
+.eye{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+}
+.eye--right{
+    left: 68%;
 }
