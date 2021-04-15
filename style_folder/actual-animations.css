@@ -40,3 +40,23 @@
         border: 1px solid black;
     }
 }
+@keyframes speech {
+    from{
+        transform: scale(0);
+        animation-timing-function: ease-in;
+    }
+
+    to{
+        transform: scale(1);
+    }
+}
+@keyframes paw {
+    from{
+        visibility: hidden;
+    }
+    to{
+        visibility: visible; 
+        z-index: 3;
+        
+    }
+}
