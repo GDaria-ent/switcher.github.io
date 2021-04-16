@@ -3,8 +3,17 @@
         top: 20%;
         animation-timing-function: linear;
     }
-    to{
+    50%{
         top: 0;
+    }
+    80%{
+        top: 0;
+    }
+    90%{
+        top: 0;
+    }
+    to{
+        top: 20%;
     }
 }
 @keyframes eyebrow--left{
@@ -46,8 +55,15 @@
         animation-timing-function: ease-in;
     }
 
-    to{
+    50%{
         transform: scale(1);
+    }
+    90%{
+        visibility: visible;
+    }
+
+    to{
+        visibility: hidden;
     }
 }
 @keyframes paw {

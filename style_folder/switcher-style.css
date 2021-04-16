@@ -17,10 +17,9 @@
     max-width: 500px;
     width: 100%;
     height: 250px;
-    box-shadow: 0 0 5px 2px rgb(90, 165, 226);
-    background-color: blue;
+    background-color: rgb(68, 77, 85);
     margin: 0 auto;
-    border-radius: 70px;
+    border-radius: 60px;
     padding-top: 40px;
 }
 .switcher-inner{
@@ -32,7 +31,7 @@
     position: relative;
     box-shadow: 0 0 5px 2px rgb(134, 132, 132);
     display: block;
-    background-color: rgb(217, 255, 0);
+    background-color: rgb(222, 224, 207);
 }
 .switcher-animated{
     transition: 0.3s ease;
