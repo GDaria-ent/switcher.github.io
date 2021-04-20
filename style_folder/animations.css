@@ -49,13 +49,13 @@
     left: 16%;
     animation: eyebrow--left 0.2s 1 linear;
     animation-fill-mode: both;
-    animation-delay: 1.4s;
+    animation-delay: 2s;
 }
 .eyebrow--right{
     left: 63%;
     animation: eyebrow--right 0.2s 1 linear;
     animation-fill-mode: both;
-    animation-delay: 1.4s;
+    animation-delay: 2s;
 }
 
 .eye-spot{
@@ -108,7 +108,7 @@
 }
 .mouth--visible{
     animation: mouth 1 0.5s ease;
-    animation-delay: 1.3s;
+    animation-delay: 1.5s;
     animation-fill-mode: both;
 }
 .speechbubble{

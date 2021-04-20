@@ -24,4 +24,5 @@ function removeClasses(){
     headAnimation.classList.remove('animation-wrapper--visible');
     speechAnimation.classList.remove('speechbubble--visible');
     pawAnimation.classList.remove('animation-paw--visible');
+    mouthAnimation.classList.remove('mouth--visible');
 };
