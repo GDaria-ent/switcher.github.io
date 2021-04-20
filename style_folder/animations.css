@@ -11,9 +11,11 @@
     margin-right: 400px;
     top: 20%;
     z-index: 1;   
+    visibility: hidden;
 }
 .animation-wrapper--visible{
     animation: head 3s 1;
+    visibility: visible;
 }
 .animation-head{
     max-width: 150px;
