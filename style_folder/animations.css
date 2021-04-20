@@ -105,6 +105,8 @@
     position: absolute;
     top: 80%;
     left: 33%;
+}
+.mouth--visible{
     animation: mouth 1 0.5s ease;
     animation-delay: 1.3s;
     animation-fill-mode: both;
